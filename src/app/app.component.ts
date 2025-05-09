@@ -18,7 +18,7 @@ export class AppComponent {
 
   //executa o método READ_tarefas quando inicializado o programa
   constructor(private http: HttpClient) {
-    this.apiURL = 'http://localhost:3000';
+    this.apiURL = 'https://back-todoapp-nrkb.onrender.com';
     this.READ_tarefas();
   }
 
